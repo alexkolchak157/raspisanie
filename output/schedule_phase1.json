@@ -1,0 +1,499 @@
+{
+  "lessons": [
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика базовая",
+      "teacher": "Козлов Г.Г.",
+      "class": "ЕГЭ-Математика базовая",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Русский язык",
+      "teacher": "Шнайдер О.А.",
+      "class": "ЕГЭ-Русский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика профильная",
+      "teacher": "Новиков Д.Д.",
+      "class": "ЕГЭ-Математика профильная",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "ЕГЭ-Литература",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: География",
+      "teacher": "Федоров О.О.",
+      "class": "ЕГЭ-География",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика базовая",
+      "teacher": "Козлов Г.Г.",
+      "class": "ЕГЭ-Математика базовая",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Русский язык",
+      "teacher": "Шнайдер О.А.",
+      "class": "ЕГЭ-Русский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика профильная",
+      "teacher": "Новиков Д.Д.",
+      "class": "ЕГЭ-Математика профильная",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "ЕГЭ-Литература",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: География",
+      "teacher": "Федоров О.О.",
+      "class": "ЕГЭ-География",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика базовая",
+      "teacher": "Козлов Г.Г.",
+      "class": "ЕГЭ-Математика базовая",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Русский язык",
+      "teacher": "Шнайдер О.А.",
+      "class": "ЕГЭ-Русский язык",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика профильная",
+      "teacher": "Новиков Д.Д.",
+      "class": "ЕГЭ-Математика профильная",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "ЕГЭ-Литература",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: География",
+      "teacher": "Федоров О.О.",
+      "class": "ЕГЭ-География",
+      "classroom": "103",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    }
+  ]
+}

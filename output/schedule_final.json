@@ -1,0 +1,2893 @@
+{
+  "lessons": [
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика базовая",
+      "teacher": "Козлов Г.Г.",
+      "class": "ЕГЭ-Математика базовая",
+      "classroom": null,
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Русский язык",
+      "teacher": "Шнайдер О.А.",
+      "class": "ЕГЭ-Русский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика профильная",
+      "teacher": "Новиков Д.Д.",
+      "class": "ЕГЭ-Математика профильная",
+      "classroom": null,
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "ЕГЭ-Литература",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: География",
+      "teacher": "Федоров О.О.",
+      "class": "ЕГЭ-География",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "203",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика базовая",
+      "teacher": "Козлов Г.Г.",
+      "class": "ЕГЭ-Математика базовая",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Русский язык",
+      "teacher": "Шнайдер О.А.",
+      "class": "ЕГЭ-Русский язык",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика профильная",
+      "teacher": "Новиков Д.Д.",
+      "class": "ЕГЭ-Математика профильная",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "ЕГЭ-Литература",
+      "classroom": null,
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: География",
+      "teacher": "Федоров О.О.",
+      "class": "ЕГЭ-География",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "WEDNESDAY",
+      "lesson_number": 1,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика базовая",
+      "teacher": "Козлов Г.Г.",
+      "class": "ЕГЭ-Математика базовая",
+      "classroom": null,
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Русский язык",
+      "teacher": "Шнайдер О.А.",
+      "class": "ЕГЭ-Русский язык",
+      "classroom": null,
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Математика профильная",
+      "teacher": "Новиков Д.Д.",
+      "class": "ЕГЭ-Математика профильная",
+      "classroom": null,
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "ЕГЭ-Литература",
+      "classroom": null,
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: География",
+      "teacher": "Федоров О.О.",
+      "class": "ЕГЭ-География",
+      "classroom": "103",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "203",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: История",
+      "teacher": "Попов М.М.",
+      "class": "ЕГЭ-История",
+      "classroom": "Актовый зал",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "ЕГЭ-Обществознание",
+      "classroom": null,
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "ЕГЭ-Английский язык",
+      "classroom": null,
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "ЕГЭ-Информатика",
+      "classroom": "107",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Биология",
+      "teacher": "Орлов К.К.",
+      "class": "ЕГЭ-Биология",
+      "classroom": "208",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Немецкий язык",
+      "teacher": "Егорова Н.В.",
+      "class": "ЕГЭ-Немецкий язык",
+      "classroom": "104",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Испанский язык",
+      "teacher": "Романов А.Б.",
+      "class": "ЕГЭ-Испанский язык",
+      "classroom": "204",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "ЕГЭ-Химия",
+      "classroom": "304",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "ЕГЭ-Физика",
+      "classroom": "404",
+      "day": "FRIDAY",
+      "lesson_number": 1,
+      "is_ege": true
+    },
+    {
+      "subject": "Практикум ЕГЭ: Французский язык",
+      "teacher": "Кузнецова Т.Т.",
+      "class": "ЕГЭ-Французский язык",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": true
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-А",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-А",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-А",
+      "classroom": "201",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-А",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-А",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-А",
+      "classroom": "402",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-А",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-А",
+      "classroom": "203",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-А",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-А",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-А",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-А",
+      "classroom": "301",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-А",
+      "classroom": "301",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-А",
+      "classroom": "303",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-А",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-А",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-А",
+      "classroom": "103",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-А",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-А",
+      "classroom": "101",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-А",
+      "classroom": "101",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-А",
+      "classroom": "305",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-А",
+      "classroom": "305",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-А",
+      "classroom": "307",
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-А",
+      "classroom": "307",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-А",
+      "classroom": "304",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-А",
+      "classroom": "401",
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-А",
+      "classroom": "204",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-А",
+      "classroom": "206",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Б",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Б",
+      "classroom": "201",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Б",
+      "classroom": "201",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Б",
+      "classroom": "201",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Б",
+      "classroom": "402",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Б",
+      "classroom": "402",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Б",
+      "classroom": "402",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Б",
+      "classroom": "203",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Б",
+      "classroom": "203",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Б",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Б",
+      "classroom": "101",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Б",
+      "classroom": "301",
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Б",
+      "classroom": "301",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-Б",
+      "classroom": "303",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Б",
+      "classroom": "103",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Б",
+      "classroom": "103",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Б",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Б",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Б",
+      "classroom": "101",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Б",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Б",
+      "classroom": "305",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Б",
+      "classroom": "305",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Б",
+      "classroom": "307",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Б",
+      "classroom": "307",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-Б",
+      "classroom": "304",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-Б",
+      "classroom": "401",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-Б",
+      "classroom": "204",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-Б",
+      "classroom": "206",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-В",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-В",
+      "classroom": "201",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-В",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-В",
+      "classroom": "201",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-В",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-В",
+      "classroom": "402",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-В",
+      "classroom": "402",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-В",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-В",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-В",
+      "classroom": "101",
+      "day": "FRIDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-В",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-В",
+      "classroom": "301",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-В",
+      "classroom": "301",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-В",
+      "classroom": "303",
+      "day": "TUESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-В",
+      "classroom": "103",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-В",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-В",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-В",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-В",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-В",
+      "classroom": "101",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-В",
+      "classroom": "305",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-В",
+      "classroom": "305",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-В",
+      "classroom": "307",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-В",
+      "classroom": "307",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-В",
+      "classroom": "304",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-В",
+      "classroom": "401",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-В",
+      "classroom": "204",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-В",
+      "classroom": "206",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Г",
+      "classroom": "201",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Г",
+      "classroom": "201",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Г",
+      "classroom": "201",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Г",
+      "classroom": "201",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Г",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Г",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Г",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Г",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Г",
+      "classroom": "203",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Г",
+      "classroom": "101",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Г",
+      "classroom": "101",
+      "day": "WEDNESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Г",
+      "classroom": "301",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Г",
+      "classroom": "301",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-Г",
+      "classroom": "303",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Г",
+      "classroom": "103",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Г",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Г",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Г",
+      "classroom": "101",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Г",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Г",
+      "classroom": "101",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Г",
+      "classroom": "305",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Г",
+      "classroom": "305",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Г",
+      "classroom": "307",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Г",
+      "classroom": "307",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-Г",
+      "classroom": "304",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-Г",
+      "classroom": "401",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-Г",
+      "classroom": "204",
+      "day": "FRIDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-Г",
+      "classroom": "206",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Д",
+      "classroom": "201",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Д",
+      "classroom": "201",
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Д",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Д",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Д",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Д",
+      "classroom": "402",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Д",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Д",
+      "classroom": "203",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Д",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Д",
+      "classroom": "101",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Д",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Д",
+      "classroom": "301",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Д",
+      "classroom": "301",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-Д",
+      "classroom": "303",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Д",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Д",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Д",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Д",
+      "classroom": "101",
+      "day": "TUESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Д",
+      "classroom": "101",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Д",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Д",
+      "classroom": "305",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Д",
+      "classroom": "305",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Д",
+      "classroom": "307",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Д",
+      "classroom": "307",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-Д",
+      "classroom": "304",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-Д",
+      "classroom": "401",
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-Д",
+      "classroom": "204",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-Д",
+      "classroom": "206",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Е",
+      "classroom": "201",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Е",
+      "classroom": "201",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Е",
+      "classroom": "201",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Е",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Е",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Е",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Е",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Е",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Е",
+      "classroom": "203",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Е",
+      "classroom": "101",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Е",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Е",
+      "classroom": "301",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Е",
+      "classroom": "301",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-Е",
+      "classroom": "303",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Е",
+      "classroom": "103",
+      "day": "FRIDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Е",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Е",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Е",
+      "classroom": "102",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Е",
+      "classroom": "102",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Е",
+      "classroom": "101",
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Е",
+      "classroom": "305",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Е",
+      "classroom": "305",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Е",
+      "classroom": "307",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Е",
+      "classroom": "307",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-Е",
+      "classroom": "304",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-Е",
+      "classroom": "401",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-Е",
+      "classroom": "204",
+      "day": "WEDNESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-Е",
+      "classroom": "206",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Ж",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Ж",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Ж",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-Ж",
+      "classroom": "201",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Ж",
+      "classroom": "402",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Ж",
+      "classroom": "402",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-Ж",
+      "classroom": "402",
+      "day": "WEDNESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Ж",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-Ж",
+      "classroom": "203",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Ж",
+      "classroom": "102",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-Ж",
+      "classroom": "102",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Ж",
+      "classroom": "301",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-Ж",
+      "classroom": "301",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-Ж",
+      "classroom": "303",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Ж",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Ж",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-Ж",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Ж",
+      "classroom": "102",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Ж",
+      "classroom": "102",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-Ж",
+      "classroom": "102",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Ж",
+      "classroom": "305",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-Ж",
+      "classroom": "305",
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Ж",
+      "classroom": "307",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-Ж",
+      "classroom": "307",
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-Ж",
+      "classroom": "304",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-Ж",
+      "classroom": "401",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-Ж",
+      "classroom": "204",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-Ж",
+      "classroom": "206",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-З",
+      "classroom": "201",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-З",
+      "classroom": "201",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Алгебра",
+      "teacher": "Козлов Г.Г.",
+      "class": "11-З",
+      "classroom": "201",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-З",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-З",
+      "classroom": "402",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-З",
+      "classroom": "402",
+      "day": "WEDNESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-З",
+      "classroom": "203",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-З",
+      "classroom": "203",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-З",
+      "classroom": "102",
+      "day": "MONDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-З",
+      "classroom": "101",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-З",
+      "classroom": "301",
+      "day": "TUESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-З",
+      "classroom": "301",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-З",
+      "classroom": "303",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-З",
+      "classroom": "103",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-З",
+      "classroom": "103",
+      "day": "WEDNESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-З",
+      "classroom": "103",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-З",
+      "classroom": "102",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-З",
+      "classroom": "102",
+      "day": "FRIDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-З",
+      "classroom": "102",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-З",
+      "classroom": "305",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-З",
+      "classroom": "305",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-З",
+      "classroom": "307",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-З",
+      "classroom": "307",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-З",
+      "classroom": "304",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-З",
+      "classroom": "401",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-З",
+      "classroom": "204",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-З",
+      "classroom": "206",
+      "day": "TUESDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-И",
+      "classroom": "402",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-И",
+      "classroom": "402",
+      "day": "MONDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-И",
+      "classroom": "402",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-И",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-И",
+      "classroom": "203",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-И",
+      "classroom": "102",
+      "day": "THURSDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-И",
+      "classroom": "101",
+      "day": "MONDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-И",
+      "classroom": "301",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-И",
+      "classroom": "301",
+      "day": "WEDNESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-И",
+      "classroom": "303",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-И",
+      "classroom": "103",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-И",
+      "classroom": "103",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Литература",
+      "teacher": "Сидорова В.В.",
+      "class": "11-И",
+      "classroom": "103",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-И",
+      "classroom": "102",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-И",
+      "classroom": "102",
+      "day": "TUESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-И",
+      "classroom": "102",
+      "day": "MONDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-И",
+      "classroom": "305",
+      "day": "FRIDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-И",
+      "classroom": "305",
+      "day": "MONDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-И",
+      "classroom": "307",
+      "day": "TUESDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-И",
+      "classroom": "307",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-И",
+      "classroom": "304",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-И",
+      "classroom": "401",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-И",
+      "classroom": "204",
+      "day": "THURSDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-И",
+      "classroom": "206",
+      "day": "WEDNESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-К",
+      "classroom": "402",
+      "day": "THURSDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-К",
+      "classroom": "402",
+      "day": "MONDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Английский язык",
+      "teacher": "Михайлова П.П.",
+      "class": "11-К",
+      "classroom": "402",
+      "day": "THURSDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-К",
+      "classroom": "203",
+      "day": "WEDNESDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Геометрия",
+      "teacher": "Морозова Е.Е.",
+      "class": "11-К",
+      "classroom": "203",
+      "day": "FRIDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-К",
+      "classroom": "102",
+      "day": "THURSDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "Русский язык",
+      "teacher": "Иванова А.А.",
+      "class": "11-К",
+      "classroom": "101",
+      "day": "FRIDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-К",
+      "classroom": "301",
+      "day": "THURSDAY",
+      "lesson_number": 2,
+      "is_ege": false
+    },
+    {
+      "subject": "Физика",
+      "teacher": "Волков Ж.Ж.",
+      "class": "11-К",
+      "classroom": "301",
+      "day": "FRIDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Химия",
+      "teacher": "Лебедева И.И.",
+      "class": "11-К",
+      "classroom": "303",
+      "day": "FRIDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Физкультура",
+      "teacher": "Павлова Х.Х.",
+      "class": "11-К",
+      "classroom": "102",
+      "day": "TUESDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-К",
+      "classroom": "305",
+      "day": "WEDNESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "История",
+      "teacher": "Соколова Л.Л.",
+      "class": "11-К",
+      "classroom": "305",
+      "day": "TUESDAY",
+      "lesson_number": 5,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-К",
+      "classroom": "307",
+      "day": "FRIDAY",
+      "lesson_number": 7,
+      "is_ege": false
+    },
+    {
+      "subject": "Обществознание",
+      "teacher": "Воробьева Н.Н.",
+      "class": "11-К",
+      "classroom": "307",
+      "day": "TUESDAY",
+      "lesson_number": 3,
+      "is_ege": false
+    },
+    {
+      "subject": "Биология",
+      "teacher": "Орлов К.К.",
+      "class": "11-К",
+      "classroom": "304",
+      "day": "WEDNESDAY",
+      "lesson_number": 6,
+      "is_ege": false
+    },
+    {
+      "subject": "География",
+      "teacher": "Федоров О.О.",
+      "class": "11-К",
+      "classroom": "401",
+      "day": "THURSDAY",
+      "lesson_number": 1,
+      "is_ege": false
+    },
+    {
+      "subject": "Информатика",
+      "teacher": "Смирнов У.У.",
+      "class": "11-К",
+      "classroom": "204",
+      "day": "FRIDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    },
+    {
+      "subject": "ОБЖ",
+      "teacher": "Голубева Ч.Ч.",
+      "class": "11-К",
+      "classroom": "206",
+      "day": "MONDAY",
+      "lesson_number": 4,
+      "is_ege": false
+    }
+  ]
+}
