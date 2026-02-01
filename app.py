@@ -967,6 +967,74 @@ def print_schedule(id):
                          day_short=DAY_SHORT)
 
 
+# ============== ШАБЛОНЫ ДЛЯ ИМПОРТА ==============
+
+@app.route('/api/templates/<template_type>')
+def api_download_template(template_type):
+    """API: Скачать шаблон Excel для импорта"""
+    import io
+    try:
+        import pandas as pd
+    except ImportError:
+        return jsonify({'error': 'Библиотека pandas не установлена'}), 500
+
+    templates = {
+        'teachers': {
+            'columns': ['ФИО', 'Сокращение', 'Email', 'Телефон', 'Кабинет', 'Предметы'],
+            'example': ['Иванова Мария Петровна', 'Иванова М.П.', 'ivanova@school.ru', '+7 999 123-45-67', '301', 'Математика, Алгебра'],
+            'filename': 'шаблон_учителя.xlsx'
+        },
+        'classrooms': {
+            'columns': ['Номер', 'Название', 'Вместимость', 'Этаж', 'Корпус', 'Оборудование'],
+            'example': ['301', 'Кабинет математики', '30', '3', 'Главный', 'Проектор, доска'],
+            'filename': 'шаблон_кабинеты.xlsx'
+        },
+        'classes': {
+            'columns': ['Название', 'Профиль', 'Учеников', 'Кабинет'],
+            'example': ['11-А', 'Физико-математический', '25', '301'],
+            'filename': 'шаблон_классы.xlsx'
+        },
+        'subjects': {
+            'columns': ['Название', 'Сокращение', 'ЕГЭ', 'Часы ЕГЭ', 'Цвет'],
+            'example': ['Математика', 'Матем.', 'Да', '4', '#4CAF50'],
+            'filename': 'шаблон_предметы.xlsx'
+        },
+        'workload': {
+            'columns': ['Учитель', 'Предмет', 'Класс', 'Часов в неделю', 'Группа'],
+            'example': ['Иванова Мария Петровна', 'Математика', '11-А', '4', ''],
+            'filename': 'шаблон_нагрузка.xlsx'
+        },
+        'students': {
+            'columns': ['ФИО', 'Класс', 'Предметы ЕГЭ'],
+            'example': ['Петров Иван Сергеевич', '11-А', 'Математика, Физика, Информатика'],
+            'filename': 'шаблон_ученики.xlsx'
+        }
+    }
+
+    if template_type not in templates:
+        return jsonify({'error': 'Неизвестный тип шаблона'}), 404
+
+    template = templates[template_type]
+
+    # Создаём DataFrame с примером
+    df = pd.DataFrame([template['example']], columns=template['columns'])
+
+    # Записываем в BytesIO
+    output = io.BytesIO()
+    with pd.ExcelWriter(output, engine='openpyxl') as writer:
+        df.to_excel(writer, index=False, sheet_name='Данные')
+
+    output.seek(0)
+
+    return Response(
+        output.getvalue(),
+        mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        headers={
+            'Content-Disposition': f'attachment; filename={template["filename"]}'
+        }
+    )
+
+
 # ============== ИМПОРТ EXCEL ==============
 
 @app.route('/import')
