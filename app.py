@@ -6,8 +6,13 @@ Flask + SQLite + Bootstrap
 """
 
 import os
-from flask import Flask, render_template, request, jsonify, redirect, url_for, flash
+import traceback
+from flask import Flask, render_template, request, jsonify, redirect, url_for, flash, Response
 from models import db, init_db, Teacher, Classroom, Subject, SchoolClass, Student, Workload, Schedule, Lesson, ScheduleHistory
+from db_adapter import DatabaseDataLoader, convert_algo_schedule_to_db, calculate_schedule_stats
+from schedule_generator import ScheduleGenerator
+from phase2_mandatory import Phase2MandatoryPlacer
+from phase3_optimization import Phase3Optimizer
 
 # Создание приложения
 app = Flask(__name__)
@@ -782,25 +787,184 @@ def generate_page():
 
 @app.route('/api/generate', methods=['POST'])
 def api_generate_schedule():
-    """API: Сгенерировать расписание"""
+    """API: Сгенерировать расписание с использованием алгоритмов"""
     data = request.json
 
+    try:
+        # Проверяем наличие необходимых данных
+        teachers_count = Teacher.query.count()
+        classes_count = SchoolClass.query.count()
+        workloads_count = Workload.query.count()
+
+        if teachers_count == 0 or classes_count == 0 or workloads_count == 0:
+            return jsonify({
+                'success': False,
+                'error': 'Недостаточно данных для генерации. Добавьте учителей, классы и нагрузку.'
+            }), 400
+
+        # Создаём новое расписание
+        schedule = Schedule(
+            name=data.get('name', f'Расписание {Schedule.query.count() + 1}'),
+            description=data.get('description', 'Автоматически сгенерировано'),
+            is_active=data.get('set_active', False)
+        )
+
+        if schedule.is_active:
+            # Деактивируем остальные
+            Schedule.query.update({'is_active': False})
+
+        db.session.add(schedule)
+        db.session.commit()
+
+        # Получаем параметры генерации
+        iterations = data.get('iterations', 1000)
+        include_ege = data.get('include_ege', True)
+
+        # Загружаем данные из БД
+        loader = DatabaseDataLoader()
+        loader.load_all()
+
+        # ФАЗА 1: Размещение практикумов ЕГЭ
+        generator = ScheduleGenerator(loader)
+
+        if include_ege and loader.ege_groups:
+            generator.place_ege_practices()
+            print(f"[Генерация] После Фазы 1: {len(generator.schedule.lessons)} уроков (ЕГЭ)")
+
+        # ФАЗА 2: Размещение обязательных предметов
+        phase2 = Phase2MandatoryPlacer(
+            schedule=generator.schedule,
+            loader=loader,
+            ege_slots=generator.ege_slots
+        )
+        phase2_stats = phase2.place_all_mandatory_subjects()
+        print(f"[Генерация] После Фазы 2: {len(generator.schedule.lessons)} уроков")
+
+        # ФАЗА 3: Оптимизация
+        optimizer = Phase3Optimizer(
+            schedule=generator.schedule,
+            loader=loader
+        )
+        optimized_schedule = optimizer.optimize(max_iterations=iterations, verbose=False)
+        print(f"[Генерация] После Фазы 3: {len(optimized_schedule.lessons)} уроков")
+
+        # Сохраняем результат в БД
+        lessons_created = convert_algo_schedule_to_db(
+            algo_schedule=optimized_schedule,
+            db_schedule=schedule,
+            loader=loader
+        )
+
+        # Рассчитываем статистику
+        stats = calculate_schedule_stats(schedule)
+
+        return jsonify({
+            'success': True,
+            'schedule': schedule.to_dict(),
+            'lessons_placed': stats['lessons_placed'],
+            'success_rate': stats['success_rate'],
+            'conflicts': stats['conflicts'],
+            'quality_score': stats['quality_score'],
+            'message': f'Расписание успешно сгенерировано: {lessons_created} уроков'
+        })
+
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({
+            'success': False,
+            'error': f'Ошибка генерации: {str(e)}'
+        }), 500
+
+
+# ============== КОПИРОВАНИЕ РАСПИСАНИЯ ==============
+
+@app.route('/api/schedules/<int:id>/copy', methods=['POST'])
+def api_schedule_copy(id):
+    """API: Скопировать расписание (версионирование)"""
+    source_schedule = Schedule.query.get_or_404(id)
+    data = request.json or {}
+
     # Создаём новое расписание
-    schedule = Schedule(
-        name=data.get('name', f'Расписание {Schedule.query.count() + 1}'),
-        description=data.get('description', 'Автоматически сгенерировано')
+    new_schedule = Schedule(
+        name=data.get('name', f'{source_schedule.name} (копия)'),
+        description=data.get('description', f'Копия расписания "{source_schedule.name}"'),
+        is_active=False
     )
-    db.session.add(schedule)
+    db.session.add(new_schedule)
     db.session.commit()
 
-    # TODO: Интеграция с алгоритмом генерации
-    # Пока просто возвращаем созданное расписание
+    # Копируем все уроки
+    source_lessons = source_schedule.lessons.all()
+    for lesson in source_lessons:
+        new_lesson = Lesson(
+            schedule_id=new_schedule.id,
+            subject_id=lesson.subject_id,
+            teacher_id=lesson.teacher_id,
+            class_id=lesson.class_id,
+            classroom_id=lesson.classroom_id,
+            day=lesson.day,
+            lesson_number=lesson.lesson_number,
+            is_ege_practice=lesson.is_ege_practice,
+            group_name=lesson.group_name
+        )
+        db.session.add(new_lesson)
+
+    db.session.commit()
 
     return jsonify({
         'success': True,
-        'schedule': schedule.to_dict(),
-        'message': 'Расписание создано. Алгоритм генерации будет добавлен позже.'
+        'schedule': new_schedule.to_dict(),
+        'message': f'Скопировано {len(source_lessons)} уроков'
     })
+
+
+# ============== ПЕЧАТЬ РАСПИСАНИЯ ==============
+
+@app.route('/print/schedule/<int:id>')
+def print_schedule(id):
+    """Страница для печати расписания"""
+    schedule = Schedule.query.get_or_404(id)
+
+    view_mode = request.args.get('view', 'class')
+    filter_id = request.args.get('filter_id')
+
+    # Получаем данные для печати
+    entity_name = "Все"
+    lessons = schedule.lessons
+
+    if view_mode == 'class' and filter_id:
+        school_class = SchoolClass.query.get(filter_id)
+        if school_class:
+            entity_name = f"Класс {school_class.name}"
+            lessons = lessons.filter_by(class_id=int(filter_id))
+    elif view_mode == 'teacher' and filter_id:
+        teacher = Teacher.query.get(filter_id)
+        if teacher:
+            entity_name = teacher.name
+            lessons = lessons.filter_by(teacher_id=int(filter_id))
+    elif view_mode == 'classroom' and filter_id:
+        classroom = Classroom.query.get(filter_id)
+        if classroom:
+            entity_name = f"Кабинет {classroom.number}"
+            lessons = lessons.filter_by(classroom_id=int(filter_id))
+
+    lessons = lessons.order_by(Lesson.day, Lesson.lesson_number).all()
+
+    # Организуем данные в таблицу
+    schedule_grid = {}
+    for lesson in lessons:
+        key = (lesson.day, lesson.lesson_number)
+        if key not in schedule_grid:
+            schedule_grid[key] = []
+        schedule_grid[key].append(lesson)
+
+    return render_template('print_schedule.html',
+                         schedule=schedule,
+                         entity_name=entity_name,
+                         view_mode=view_mode,
+                         schedule_grid=schedule_grid,
+                         day_names=DAY_NAMES,
+                         day_short=DAY_SHORT)
 
 
 # ============== ИМПОРТ EXCEL ==============

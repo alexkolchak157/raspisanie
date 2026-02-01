@@ -87,6 +87,12 @@
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h1><i class="bi bi-table"></i> Расписание</h1>
     <div class="btn-group">
+        <button class="btn btn-outline-secondary" onclick="printSchedule()" title="Печать">
+            <i class="bi bi-printer"></i> Печать
+        </button>
+        <button class="btn btn-outline-secondary" onclick="copySchedule()" title="Создать копию">
+            <i class="bi bi-copy"></i> Копировать
+        </button>
         <button class="btn btn-outline-primary" onclick="exportSchedule()">
             <i class="bi bi-download"></i> Экспорт
         </button>
@@ -524,6 +530,47 @@ function exportSchedule() {
         return;
     }
     window.open(`/api/schedules/${scheduleId}/export`, '_blank');
+}
+
+function printSchedule() {
+    const scheduleId = document.getElementById('scheduleSelect').value;
+    if (!scheduleId) {
+        showToast('Выберите расписание', 'warning');
+        return;
+    }
+    const viewMode = document.getElementById('viewMode').value;
+    const filterId = document.getElementById('filterSelect').value;
+    window.open(`/print/schedule/${scheduleId}?view=${viewMode}&filter_id=${filterId}`, '_blank');
+}
+
+function copySchedule() {
+    const scheduleId = document.getElementById('scheduleSelect').value;
+    if (!scheduleId) {
+        showToast('Выберите расписание', 'warning');
+        return;
+    }
+
+    const newName = prompt('Введите название для копии расписания:', 'Копия расписания');
+    if (!newName) return;
+
+    fetch(`/api/schedules/${scheduleId}/copy`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: newName })
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (data.success) {
+            showToast(`Расписание скопировано: ${data.message}`, 'success');
+            // Перезагружаем страницу чтобы показать новое расписание
+            setTimeout(() => location.reload(), 1000);
+        } else {
+            showToast(data.error || 'Ошибка копирования', 'danger');
+        }
+    })
+    .catch(err => {
+        showToast('Ошибка: ' + err.message, 'danger');
+    });
 }
 
 function showToast(message, type = 'info') {
