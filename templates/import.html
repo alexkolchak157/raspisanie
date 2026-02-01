@@ -76,8 +76,23 @@
                 </div>
 
                 <div id="errorsList" class="d-none">
-                    <h6>Ошибки:</h6>
-                    <ul class="list-group" id="errorsListItems"></ul>
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h6 class="mb-0"><i class="bi bi-exclamation-triangle text-danger"></i> Ошибки импорта:</h6>
+                        <button class="btn btn-sm btn-outline-secondary" onclick="copyErrors()" title="Копировать ошибки">
+                            <i class="bi bi-clipboard"></i> Копировать
+                        </button>
+                    </div>
+                    <div class="border rounded bg-light" style="max-height: 250px; overflow-y: auto;">
+                        <ul class="list-group list-group-flush" id="errorsListItems"></ul>
+                    </div>
+                    <div class="alert alert-info mt-3 mb-0">
+                        <i class="bi bi-lightbulb"></i> <strong>Совет:</strong> Проверьте указанные строки в файле Excel. Убедитесь, что:
+                        <ul class="mb-0 mt-1">
+                            <li>Все обязательные поля заполнены</li>
+                            <li>Названия учителей, предметов и классов совпадают с уже добавленными</li>
+                            <li>Числовые значения указаны корректно</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -207,6 +222,47 @@
 
 {% block scripts %}
 <script>
+// Копирование ошибок в буфер обмена
+function copyErrors() {
+    const errors = Array.from(document.querySelectorAll('#errorsListItems li'))
+        .map(li => li.textContent)
+        .join('\n');
+
+    navigator.clipboard.writeText(errors).then(() => {
+        showToast('Ошибки скопированы в буфер обмена', 'success');
+    }).catch(() => {
+        // Fallback для старых браузеров
+        const textarea = document.createElement('textarea');
+        textarea.value = errors;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        showToast('Ошибки скопированы в буфер обмена', 'success');
+    });
+}
+
+// Валидация файла перед отправкой
+document.getElementById('importFile').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (file) {
+        const maxSize = 10 * 1024 * 1024; // 10 MB
+        if (file.size > maxSize) {
+            showToast('Файл слишком большой. Максимальный размер: 10 МБ', 'danger');
+            e.target.value = '';
+            return;
+        }
+
+        const validTypes = ['.xlsx', '.xls'];
+        const extension = file.name.toLowerCase().slice(file.name.lastIndexOf('.'));
+        if (!validTypes.includes(extension)) {
+            showToast('Неподдерживаемый формат файла. Используйте .xlsx или .xls', 'danger');
+            e.target.value = '';
+            return;
+        }
+    }
+});
+
 document.getElementById('importForm').addEventListener('submit', function(e) {
     e.preventDefault();
 

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Печать расписания - {{ entity_name }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 10pt;
+            line-height: 1.3;
+            padding: 10mm;
+            background: white;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 16pt;
+            margin-bottom: 5px;
+        }
+
+        .header .subtitle {
+            font-size: 12pt;
+            color: #333;
+        }
+
+        .header .date {
+            font-size: 9pt;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .schedule-table th,
+        .schedule-table td {
+            border: 1px solid #333;
+            padding: 4px 6px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .schedule-table th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            font-size: 9pt;
+        }
+
+        .schedule-table th.time-col {
+            width: 60px;
+        }
+
+        .schedule-table th.day-col {
+            width: calc((100% - 60px) / 5);
+        }
+
+        .schedule-table td.time-cell {
+            background-color: #f8f8f8;
+            font-weight: bold;
+            font-size: 9pt;
+        }
+
+        .schedule-table td.lesson-cell {
+            height: 50px;
+            font-size: 8pt;
+            text-align: left;
+            padding: 3px 5px;
+        }
+
+        .lesson-item {
+            margin-bottom: 3px;
+            padding: 2px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .lesson-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .lesson-subject {
+            font-weight: bold;
+            font-size: 9pt;
+        }
+
+        .lesson-details {
+            font-size: 8pt;
+            color: #444;
+        }
+
+        .lesson-classroom {
+            font-size: 8pt;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 8pt;
+            color: #666;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+
+        .no-print {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f0f0f0;
+            text-align: center;
+        }
+
+        .no-print button {
+            padding: 10px 30px;
+            font-size: 14pt;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        @media print {
+            body {
+                padding: 5mm;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            .schedule-table {
+                page-break-inside: avoid;
+            }
+        }
+
+        @page {
+            size: A4 landscape;
+            margin: 10mm;
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print">
+        <button onclick="window.print()">Печать</button>
+        <button onclick="window.close()">Закрыть</button>
+    </div>
+
+    <div class="header">
+        <h1>ГБОУ "Школа Покровский квартал"</h1>
+        <div class="subtitle">Расписание: {{ entity_name }}</div>
+        <div class="date">{{ schedule.name }} | Сформировано: {{ schedule.created_at.strftime('%d.%m.%Y %H:%M') }}</div>
+    </div>
+
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th class="time-col">Урок</th>
+                {% for day in day_names %}
+                <th class="day-col">{{ day }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% set lesson_times = [
+                ('8:30', '9:15'),
+                ('9:25', '10:10'),
+                ('10:25', '11:10'),
+                ('11:25', '12:10'),
+                ('12:30', '13:15'),
+                ('13:30', '14:15'),
+                ('14:25', '15:10')
+            ] %}
+
+            {% for lesson_num in range(1, 8) %}
+            <tr>
+                <td class="time-cell">
+                    {{ lesson_num }} урок<br>
+                    <small>{{ lesson_times[lesson_num - 1][0] }}-{{ lesson_times[lesson_num - 1][1] }}</small>
+                </td>
+                {% for day_idx in range(5) %}
+                <td class="lesson-cell">
+                    {% set key = (day_idx, lesson_num) %}
+                    {% if key in schedule_grid %}
+                        {% for lesson in schedule_grid[key] %}
+                        <div class="lesson-item">
+                            <div class="lesson-subject">
+                                {% if lesson.subject %}
+                                    {{ lesson.subject.short_name or lesson.subject.name }}
+                                {% endif %}
+                            </div>
+                            <div class="lesson-details">
+                                {% if view_mode != 'teacher' and lesson.teacher %}
+                                    {{ lesson.teacher.short_name or lesson.teacher.name[:15] }}
+                                {% endif %}
+                                {% if view_mode != 'class' and lesson.school_class %}
+                                    {{ lesson.school_class.name }}
+                                {% endif %}
+                                {% if lesson.is_ege_practice and lesson.group_name %}
+                                    ({{ lesson.group_name }})
+                                {% endif %}
+                            </div>
+                            {% if lesson.classroom %}
+                            <div class="lesson-classroom">каб. {{ lesson.classroom.number }}</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="footer">
+        Расписание сгенерировано автоматически системой "Генератор расписания"
+    </div>
+</body>
+</html>

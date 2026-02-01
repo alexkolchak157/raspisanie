@@ -37,8 +37,75 @@ function showToast(message, type = 'info') {
     toastEl.addEventListener('hidden.bs.toast', () => toastEl.remove());
 }
 
-// Подтверждение удаления
-function confirmDelete(message) {
+// Подтверждение удаления с красивым модальным окном
+function confirmDelete(message, entityName = '') {
+    return new Promise((resolve) => {
+        // Создаём модальное окно если его нет
+        let modal = document.getElementById('confirmDeleteModal');
+        if (!modal) {
+            const modalHtml = `
+                <div class="modal fade" id="confirmDeleteModal" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header bg-danger text-white">
+                                <h5 class="modal-title">
+                                    <i class="bi bi-exclamation-triangle me-2"></i>Подтверждение удаления
+                                </h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p id="confirmDeleteMessage"></p>
+                                <p class="text-muted mb-0"><small>Это действие нельзя отменить.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                                <button type="button" class="btn btn-danger" id="confirmDeleteBtn">
+                                    <i class="bi bi-trash"></i> Удалить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+            modal = document.getElementById('confirmDeleteModal');
+        }
+
+        const messageEl = document.getElementById('confirmDeleteMessage');
+        const confirmBtn = document.getElementById('confirmDeleteBtn');
+        const bsModal = new bootstrap.Modal(modal);
+
+        messageEl.innerHTML = message || 'Вы уверены, что хотите удалить?';
+        if (entityName) {
+            messageEl.innerHTML += `<br><strong class="text-danger">${entityName}</strong>`;
+        }
+
+        // Обработчики
+        const handleConfirm = () => {
+            cleanup();
+            bsModal.hide();
+            resolve(true);
+        };
+
+        const handleCancel = () => {
+            cleanup();
+            resolve(false);
+        };
+
+        const cleanup = () => {
+            confirmBtn.removeEventListener('click', handleConfirm);
+            modal.removeEventListener('hidden.bs.modal', handleCancel);
+        };
+
+        confirmBtn.addEventListener('click', handleConfirm);
+        modal.addEventListener('hidden.bs.modal', handleCancel);
+
+        bsModal.show();
+    });
+}
+
+// Обратная совместимость: простой confirm
+function confirmDeleteSync(message) {
     return confirm(message || 'Вы уверены, что хотите удалить?');
 }
 
